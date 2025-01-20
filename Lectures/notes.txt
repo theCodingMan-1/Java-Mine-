@@ -1,3 +1,22 @@
 OOP is a programming paradigm based on the concept of 'objects'.
 
 C and Java share much of the same syntax.
+
+
+Attributes:
+    - Each object has its own copy of its attributes
+    - attributes can be plain datatypes
+    - however attributes can be more complex; they may even be references to other objects
+
+Methods:
+    - Methods take parameters and return values
+    - Can be overloaded (same method name, different parameters)
+    - They are the main way to communicate with an object
+
+
+
+ == -> checks for equality
+
+ arrays are objects too
+ 
+
