@@ -20,3 +20,7 @@ Methods:
  arrays are objects too
 
 
+
+>>> javac [filename.java]
+>>> java [filename]
+
