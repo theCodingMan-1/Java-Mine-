@@ -101,7 +101,7 @@ class Vector2D {
         x *= f;
         y *= f;
     }
-    
+
 }
 
 
