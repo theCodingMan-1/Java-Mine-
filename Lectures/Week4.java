@@ -58,5 +58,5 @@ interface Pet {
 
 
 class Dog extends Animal implements Pet {
-    
+
 }
