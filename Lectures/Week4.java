@@ -60,3 +60,45 @@ interface Pet {
 class Dog extends Animal implements Pet {
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//generics were introduced to provide tighter type checks at compile time and to support generic programming
+// however you can inherit from generic classes too
+// children are allowed to use all the type perameters of the parent and define their own ones.
+
+class MyParent<T> {
+
+}
+
+class MyChild<T, V> extends MyParent<T> {
+
+}
+
+//
+// (._.)  <(Hello!)
+//  -|-
+//  / \

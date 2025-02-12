@@ -4,6 +4,8 @@ public class BrickHouse extends House {
 
     boolean potBoiling = new Random().nextBoolean();
 
+    String name = "Brick House";
+
     public Integer accept(VisitorInt visitor) {
         return visitor.visit(this);
     }

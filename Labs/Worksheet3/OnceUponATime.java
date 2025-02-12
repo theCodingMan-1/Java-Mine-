@@ -1,15 +1,20 @@
 public class OnceUponATime {
     public static Integer estimateRentPCM(House house) {
-        CharterSurveyor me = new CharterSurveyor;
+        CharterSurveyor me = new CharterSurveyor();
         return house.accept(me);
     }
 
     public static Integer estimateHeatingBillPCM(House house) {
-        return -1;
+        Electrician<Integer> me = new Electrician<>();
+        return house.accept(me)
     }
 
     public static String letMeComeIn(House house) {
-        return "";
+
+        Storyteller<String> me = new Storyteller<>();
+
+
+        return house.accept(me);
     }
 
     public static void main(String[] args) {
