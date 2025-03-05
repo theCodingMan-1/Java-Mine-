@@ -1,0 +1,15 @@
+Don't move within detectives' reach before reveal move
+> if node is destination of one of detectives' available moves and your move will be revealed, eliminate node from possible destinations
+
+Use only taxis and secret tickets (if possible)
+- BUT if far away from detectives no need use secret?
+> if detectives are far away, use taxis
+- BUT if only one secret ticket left early in game stage, maybe save it?
+> implement a method for calc "value" of a ticket based on number left, how many turns are left, other move options
+- ESPECIALLY if just been revealed
+- NB: no point using secret if on an only taxi node
+
+Try keep out of detectives reach
+- if cannot, use double move
+
+Avoid corners
